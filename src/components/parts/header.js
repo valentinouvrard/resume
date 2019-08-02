@@ -15,7 +15,7 @@ const SubTitle = styled.h3`
 `
 
 const Bold = styled.span`
-  font-weight: 200;
+  font-weight: 400;
 `
 function Header() {
   return (

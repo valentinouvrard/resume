@@ -6,12 +6,11 @@ import LogoMySG from '../../ressources/mysg.jpg'
 const Container = styled.div`
   display: block;
   width: 100%;
-  margin-bottom: 7mm;
 `
 
 const Title = styled.h2`
-  font-weight: 350;
-  margin-bottom: 4mm;
+  font-weight: 400;
+  margin-bottom: 3mm;
 `
 
 const ExperienceLogo = styled.img`
@@ -22,7 +21,7 @@ const ExperienceLogo = styled.img`
 `
 
 const SubContainer = styled.div`
-  margin-bottom: 8mm;
+  margin-bottom: 6mm;
 `
 
 const Light = styled.span`

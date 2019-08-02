@@ -22,12 +22,6 @@ const InfoText = styled.p`
   color: ${props => props.theme.palette.primary};
 `
 
-const NewTabLink = (props) => <a target="_blank" rel="noopener noreferrer" href={props.href}> {props.children} </a>
-
-const InfoLink = styled(NewTabLink)`
-  margin-left: 2mm;
-`
-
 const ColumnTitle = styled.h4`
 
 `
@@ -36,8 +30,8 @@ const InfoContainer = styled.div`
   padding: 1mm 0mm;
 `
 const Title = styled.h2`
-  font-weight: 350;
-  margin-bottom: 4mm;
+  font-weight: 400;
+  margin-bottom: 3mm;
 `
 
 function Skills() {

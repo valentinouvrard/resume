@@ -10,7 +10,7 @@ import Projects from './components/parts/projects';
 import Skills from './components/parts/skills';
 
 const MainContainer = styled.div`
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: white;
   display: block;
   margin: 0 auto;
@@ -20,7 +20,7 @@ const MainContainer = styled.div`
   width: 21cm;
   height: 29.7cm;
   > * {
-    margin-bottom: 5mm;
+    margin-bottom: 3mm;
   }
 `
 function App() {
