@@ -4,26 +4,15 @@ import styled from 'styled-components'
 const Container = styled.div`
   display: block;
   width: 100%;
-  margin-bottom: 10mm;
 `
 
 const Title = styled.h2`
-  font-weight: 350;
-  margin-bottom: 4mm;
-`
-
-const ProjectLogo = styled.img`
-  width: 2cm;
-  float: left;
-  margin-right: 4mm;
+  font-weight: 400;
+  margin-bottom: 3mm;
 `
 
 const SubContainer = styled.div`
   margin-bottom: 4mm;
-`
-
-const Light = styled.span`
-  font-weight: 150;
 `
 
 const ProjectTitle = styled.h4`
@@ -33,7 +22,7 @@ const ProjectTitle = styled.h4`
 `
 const ProjectSubInfos = styled.p`
   font-weight: 150;
-  margin-top: 2mm;
+  margin-bottom: 3mm;
   color: ${props => props.theme.palette.greys.normal};
 `
 
