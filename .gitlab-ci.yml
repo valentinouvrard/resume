@@ -1,0 +1,30 @@
+image: node
+
+cache:
+  paths:
+  - node_modules
+
+stages:
+- build
+- deploy
+
+build:
+  stage: build
+
+  script:
+    - npm install
+    - npm run build --prod
+
+  artifacts:
+    paths:
+    - build
+
+deploy:
+  stage: deploy
+  script:
+    - apt update && apt install -y lftp
+    - ls build/
+    - lftp -c "set ftp:ssl-allow no; open -u $FTP_USERNAME,$FTP_PASSWORD $FTP_SERVER; rm -rf ./www/resume"
+    - lftp -c "set ftp:ssl-allow no; open -u $FTP_USERNAME,$FTP_PASSWORD $FTP_SERVER; mirror -Rev build/ ./www/resume  --ignore-time --parallel=10 --exclude-glob .git* --exclude .git/"
+  only:
+    - master

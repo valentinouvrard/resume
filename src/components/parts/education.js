@@ -8,8 +8,8 @@ const Container = styled.div`
 `
 
 const Title = styled.h2`
-  font-weight: 350;
-  margin-bottom: 4mm;
+  font-weight: 400;
+  margin-bottom: 3mm;
 `
 
 const EducationLogo = styled.img`
@@ -20,7 +20,7 @@ const EducationLogo = styled.img`
 `
 
 const SubContainer = styled.div`
-  margin-bottom: 8mm;
+  margin-bottom: 6mm;
 `
 
 const Light = styled.span`

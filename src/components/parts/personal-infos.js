@@ -12,7 +12,7 @@ const Container = styled.div`
 `
 
 const Column = styled.div`
-    padding-bottom: 2mm;
+    padding-bottom: 1mm;
     width: 33.333%;
     word-wrap: break-word;
     box-sizing: border-box;
@@ -32,7 +32,7 @@ const InfoLink = styled(NewTabLink)`
 `
 
 const InfoContainer = styled.div`
-  padding: 2mm 0mm;
+  padding: 1mm 0mm;
 `
 
 function PersonalInfos() {
