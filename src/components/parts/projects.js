@@ -19,16 +19,18 @@ const ProjectTitle = styled.h4`
   color: ${props => props.theme.palette.greys.dark};
   display: inline-block;
   margin-right: 4mm;
+  margin-bottom: 1mm;
+  font-weight: 600;
 `
 const ProjectSubInfos = styled.p`
-  font-weight: 150;
-  margin-bottom: 3mm;
+  font-weight: 400;
   color: ${props => props.theme.palette.greys.normal};
 `
 
 const ProjectTechs = styled(ProjectSubInfos)`
   color: ${props => props.theme.palette.primary};
   display: inline-block;
+  font-weight: 150;
 `
 
 function Projects() {

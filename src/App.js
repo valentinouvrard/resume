@@ -3,7 +3,6 @@ import styled, { ThemeProvider } from 'styled-components'
 import Header from './components/parts/header'
 import GlobalStyle from './style/global-style'
 import theme from './style/theme'
-import PersonalInfos from './components/parts/personal-infos';
 import Education from './components/parts/education';
 import Experience from './components/parts/experience';
 import Projects from './components/parts/projects';
@@ -30,7 +29,6 @@ function App() {
         <GlobalStyle/>
         <MainContainer>
           <Header/>
-          <PersonalInfos/>
           <Education/>
           <Experience/>
           <Projects/>

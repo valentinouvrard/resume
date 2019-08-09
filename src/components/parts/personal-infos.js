@@ -12,7 +12,6 @@ const Container = styled.div`
 `
 
 const Column = styled.div`
-    padding-bottom: 1mm;
     width: 33.333%;
     word-wrap: break-word;
     box-sizing: border-box;

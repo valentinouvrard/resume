@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 import LogoEpita from '../../ressources/epita.svg'
 import LogoGCD from '../../ressources/gcd.png'
+import LocationDateInfo from '../decoration/location-date-info';
 
 const Container = styled.div`
 `
@@ -12,9 +13,16 @@ const Title = styled.h2`
   margin-bottom: 3mm;
 `
 
+const LogoContainer = styled.div`
+  width: 2cm;
+  height: 1.5cm;
+  float: left;
+  margin-right: 4mm;
+`
+
 const EducationLogo = styled.img`
-  max-width: 1.5cm;
-  max-height: 1cm;
+  max-width: 2cm;
+  max-height: 1.5cm;
   display: block;
   margin: auto;
 `
@@ -28,18 +36,12 @@ const Light = styled.span`
 `
 
 const EducationTitle = styled.h4`
+  font-weight: 600;
   color: ${props => props.theme.palette.greys.dark};
 `
 const EducationSubInfos = styled.p`
-  font-weight: 150;
-  margin-top: 2mm;
+  font-weight: 400;
   color: ${props => props.theme.palette.greys.normal};
-`
-const LogoContainer = styled.div`
-  width: 1.5cm;
-  height: 1cm;
-  float: left;
-  margin-right: 4mm;
 `
 
 function Education() {
@@ -50,15 +52,17 @@ function Education() {
         <LogoContainer>
           <EducationLogo src={LogoEpita}/>
         </LogoContainer>
-        <EducationTitle> EPITA - École Pour l'Informatique et les Techniques Avancées <Light>2015 - 2020</Light> </EducationTitle>
+        <EducationTitle> EPITA - École Pour l'Informatique et les Techniques Avancées </EducationTitle>
         <EducationSubInfos> Computer Engineering School - Master degree - Multimedia Specialization</EducationSubInfos>
+        <LocationDateInfo dates={"2015 - 2020"} location={"France, Paris"}/>
       </SubContainer>
       <SubContainer>
         <LogoContainer>
           <EducationLogo src={LogoGCD}/>
         </LogoContainer>
-        <EducationTitle> GCD - Griffith College Dublin <Light>2017</Light> </EducationTitle>
+        <EducationTitle> GCD - Griffith College Dublin </EducationTitle>
         <EducationSubInfos> One semester abroad - Studying Computer Science</EducationSubInfos>
+        <LocationDateInfo dates={"Jan 2017 - June 2017"} location={"Ireland, Dublin"}/>
       </SubContainer>
     </Container>
   )
