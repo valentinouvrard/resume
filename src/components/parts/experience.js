@@ -32,7 +32,7 @@ const SubContainer = styled.div`
   margin-bottom: 6mm;
 `
 
-const ExperienceTitle = styled.h4`
+const ExperienceTitle = styled.h5`
   font-weight: 600;
   color: ${props => props.theme.palette.greys.dark};
 `

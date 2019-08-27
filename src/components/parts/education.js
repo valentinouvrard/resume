@@ -35,7 +35,7 @@ const Light = styled.span`
   font-weight: 150;
 `
 
-const EducationTitle = styled.h4`
+const EducationTitle = styled.h5`
   font-weight: 600;
   color: ${props => props.theme.palette.greys.dark};
 `

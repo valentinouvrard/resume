@@ -10,7 +10,7 @@ const NameTitle = styled.h1`
   font-weight: 150;
 `
 
-const SubTitle = styled.h3`
+const SubTitle = styled.h4`
   font-weight: 150;
   margin-bottom: 1mm;
   color: ${props => props.theme.palette.greys.normal};

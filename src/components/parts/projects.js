@@ -15,7 +15,7 @@ const SubContainer = styled.div`
   margin-bottom: 4mm;
 `
 
-const ProjectTitle = styled.h4`
+const ProjectTitle = styled.h5`
   color: ${props => props.theme.palette.greys.dark};
   display: inline-block;
   margin-right: 4mm;

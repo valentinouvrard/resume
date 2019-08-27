@@ -22,12 +22,12 @@ const InfoText = styled.p`
   color: ${props => props.theme.palette.primary};
 `
 
-const ColumnTitle = styled.h4`
+const ColumnTitle = styled.h5`
 
 `
 
 const InfoContainer = styled.div`
-  padding: 1mm 0mm;
+  padding: 0.5mm 0mm;
 `
 const Title = styled.h2`
   font-weight: 400;

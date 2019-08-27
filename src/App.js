@@ -10,16 +10,12 @@ import Skills from './components/parts/skills';
 
 const MainContainer = styled.div`
   font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: white;
-  display: block;
-  margin: 0 auto;
-  padding: 1cm;
-  margin-bottom: 0.5cm;
-  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
-  width: 21cm;
-  height: 29.7cm;
   > * {
     margin-bottom: 3mm;
+  };
+  padding: 1cm;
+  * {
+    -webkit-print-color-adjust: exact;
   }
 `
 function App() {
