@@ -24,11 +24,12 @@ const InfoText = styled.p`
   margin-left: 2mm;
 `
 
-const NewTabLink = (props) => <a target="_blank" rel="noopener noreferrer" href={props.href}> {props.children} </a>
-
-const InfoLink = styled(NewTabLink)`
+const InfoLink = styled.a`
   margin-left: 2mm;
+  font-size: 40;
 `
+
+const NewTabLink = (props) => <InfoLink target="_blank" rel="noopener noreferrer" href={props.href}> {props.children} </InfoLink>
 
 const InfoContainer = styled.div`
   padding: 1mm 0mm;
@@ -50,21 +51,21 @@ function PersonalInfos() {
       <Column>
         <InfoContainer>
           <CustomFaIcon icon={faGitlab}/>
-          <InfoLink href="https://gitlab.com/Valentin.ouvrard">valentin.ouvrard</InfoLink>
+          <NewTabLink href="https://gitlab.com/Valentin.ouvrard">valentin.ouvrard</NewTabLink>
         </InfoContainer>
         <InfoContainer>
           <CustomFaIcon icon={faTwitter}/>
-          <InfoLink href="https://twitter.com/Valentin_Ovrd">valentin_ovrd</InfoLink>
+          <NewTabLink href="https://twitter.com/Valentin_Ovrd">valentin_ovrd</NewTabLink>
         </InfoContainer>
       </Column>
       <Column>
         <InfoContainer>
           <CustomFaIcon icon={faLinkedin}/>
-          <InfoLink href="https://www.linkedin.com/in/valentin-ouvrard/">Valentin Ouvrard</InfoLink>
+          <NewTabLink href="https://www.linkedin.com/in/valentin-ouvrard/">Valentin Ouvrard</NewTabLink>
         </InfoContainer>
         <InfoContainer>
           <CustomFaIcon icon={faGlobe}/>
-          <InfoLink href="https://valentinouvrard.fr">valentinouvrard.fr</InfoLink>
+          <NewTabLink href="https://valentinouvrard.fr">valentinouvrard.fr</NewTabLink>
         </InfoContainer>
       </Column>
     </Container>

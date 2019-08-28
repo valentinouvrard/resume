@@ -40,7 +40,7 @@ function Projects() {
       <SubContainer>
         <ProjectTitle>Bananup</ProjectTitle>
         <ProjectTechs>Django, React</ProjectTechs>
-        <ProjectSubInfos>Website made for semi-competitor gamers that want to improve their gaming skills thanks to a community-driven feedbacks.</ProjectSubInfos>
+        <ProjectSubInfos>Website made for semi-competitor gamers that want to improve their gaming skills thanks to community-driven feedbacks.</ProjectSubInfos>
       </SubContainer>
       <SubContainer>
         <ProjectTitle> NetflixRoulette </ProjectTitle>
@@ -50,7 +50,7 @@ function Projects() {
       <SubContainer>
         <ProjectTitle> Sportizen </ProjectTitle>
         <ProjectTechs> NodeJs, React Native</ProjectTechs>
-        <ProjectSubInfos>Application that permit to generate sportive activities and keep track of your performances.</ProjectSubInfos>
+        <ProjectSubInfos>Application that allows users to generate sport activities and keep track of their performances.</ProjectSubInfos>
       </SubContainer>
     </Container>
   )

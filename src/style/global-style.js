@@ -5,10 +5,9 @@ const GlobalStyle = createGlobalStyle`
     background: white;
     display: block;
     margin: 0.5cm auto;
-    margin-bottom: 0.5cm;
     box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
     width: 210mm;
-    height: 297mm;
+    height: 296mm;
   };
 
   h1, h2, h3, h4, h5, h6, p {
@@ -32,7 +31,7 @@ const GlobalStyle = createGlobalStyle`
   @media print {
     body, page[size="A4"] {
       margin: 0;
-      box-shadow: 0;
+      box-shadow: 0 0 0 0;
     }
   };
 `

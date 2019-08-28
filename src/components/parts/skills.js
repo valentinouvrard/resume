@@ -27,7 +27,7 @@ const ColumnTitle = styled.h5`
 `
 
 const InfoContainer = styled.div`
-  padding: 0.5mm 0mm;
+  padding: 0.2mm 0mm;
 `
 const Title = styled.h2`
   font-weight: 400;

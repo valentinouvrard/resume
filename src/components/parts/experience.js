@@ -50,7 +50,7 @@ function Experience() {
           <ExperienceLogo src={LogoEpita}/>
         </LogoContainer>
         <ExperienceTitle>EPITA - École Pour l'Informatique et les Techniques Avancées</ExperienceTitle>
-        <ExperienceSubInfos>Teaching Assistant C / C++ / Java / SQL / Web</ExperienceSubInfos>
+        <ExperienceSubInfos>Teaching Assistant C / C++ / Java / SQL / Web (YAKA/ACU)</ExperienceSubInfos>
         <LocationDateInfo dates={"Jan 2019 - Now"} location={"France, Paris"}/>
       </SubContainer>
       <SubContainer>
@@ -58,8 +58,16 @@ function Experience() {
           <ExperienceLogo src={LogoMySG}/>
         </LogoContainer>
         <ExperienceTitle> My-Serious-Game </ExperienceTitle>
-        <ExperienceSubInfos> Internship in innovation department. Realized a Slack chatbot and various proofs of concepts.</ExperienceSubInfos>
+        <ExperienceSubInfos> Internship in innovation department. Realized a Slack chatbot and various proofs of concepts on Unity3D (VR).</ExperienceSubInfos>
         <LocationDateInfo dates={"Sept 2018 - Jan 2019"} location={"France, Tours"}/>
+      </SubContainer>
+      <SubContainer>
+        <LogoContainer>
+          <ExperienceLogo src={LogoEpita}/>
+        </LogoContainer>
+        <ExperienceTitle>EPITA - École Pour l'Informatique et les Techniques Avancées</ExperienceTitle>
+        <ExperienceSubInfos>Teaching Assistant C (ASM)</ExperienceSubInfos>
+        <LocationDateInfo dates={"Sept 2017 - June 2017"} location={"France, Paris"}/>
       </SubContainer>
     </Container>
   )
