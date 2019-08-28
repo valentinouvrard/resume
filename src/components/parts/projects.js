@@ -45,7 +45,7 @@ function Projects() {
       <SubContainer>
         <ProjectTitle> NetflixRoulette </ProjectTitle>
         <ProjectTechs>Django, React</ProjectTechs>
-        <ProjectSubInfos>Website made for french Netflix users. It allows you to choose randomly in the french catalog. For now, nothing more than categories are purposed as filter.</ProjectSubInfos>
+        <ProjectSubInfos>Website made for french Netflix users. It allows you to choose randomly in the french catalog. For now, nothing more than categories are offered as filters.</ProjectSubInfos>
       </SubContainer>
       <SubContainer>
         <ProjectTitle> Sportizen </ProjectTitle>
