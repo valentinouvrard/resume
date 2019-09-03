@@ -49,7 +49,7 @@ function Projects() {
       </SubContainer>
       <SubContainer>
         <ProjectTitle> Sportizen </ProjectTitle>
-        <ProjectTechs> NodeJs, React Native</ProjectTechs>
+        <ProjectTechs>NodeJs, React Native</ProjectTechs>
         <ProjectSubInfos>Application that allows users to generate sport activities and keep track of their performances.</ProjectSubInfos>
       </SubContainer>
     </Container>

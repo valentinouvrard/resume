@@ -23,7 +23,7 @@ function Header() {
   return (
     <Container>
       <NameTitle>Valentin <Bold>Ouvrard</Bold></NameTitle>
-      <SubTitle>Front-end developer looking for a 6 months internship</SubTitle>
+      <SubTitle>Looking for a 6 months internship in Front-end Engineering</SubTitle>
       <PersonalInfos/>
     </Container>
   )
