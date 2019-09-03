@@ -40,17 +40,17 @@ function Projects() {
       <SubContainer>
         <ProjectTitle>Bananup</ProjectTitle>
         <ProjectTechs>Django, React</ProjectTechs>
-        <ProjectSubInfos>Website made for semi-competitor gamers that want to improve their gaming skills thanks to community-driven feedbacks.</ProjectSubInfos>
+        <ProjectSubInfos>A website made for semi-competitive gamers that want to improve their gaming skills thanks to community-driven feedbacks.</ProjectSubInfos>
       </SubContainer>
       <SubContainer>
         <ProjectTitle> NetflixRoulette </ProjectTitle>
         <ProjectTechs>Django, React</ProjectTechs>
-        <ProjectSubInfos>Website made for french Netflix users. It allows you to choose randomly in the french catalog. For now, nothing more than categories are offered as filters.</ProjectSubInfos>
+        <ProjectSubInfos>A website made for french Netflix users. It allows you to choose randomly in the french catalog. For now, nothing more than categories is offered as filters.</ProjectSubInfos>
       </SubContainer>
       <SubContainer>
         <ProjectTitle> Sportizen </ProjectTitle>
         <ProjectTechs>NodeJs, React Native</ProjectTechs>
-        <ProjectSubInfos>Application that allows users to generate sport activities and keep track of their performances.</ProjectSubInfos>
+        <ProjectSubInfos>An application that allows users to generate sport activities and keep track of their performances.</ProjectSubInfos>
       </SubContainer>
     </Container>
   )
