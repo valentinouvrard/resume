@@ -9,7 +9,7 @@ const Container = styled.div`
 
 const Comment = styled.h6`
   font-weight: 150;
-  font-size: 10px;
+  font-size: 0.6rem;
   text-align: center;
   color: ${props => props.theme.palette.greys.normal};
 `

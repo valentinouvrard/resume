@@ -17,7 +17,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   p {
-    font-size: 12px;
+    font-size: 0.7rem;
   }
 
 
@@ -25,7 +25,7 @@ const GlobalStyle = createGlobalStyle`
     color: ${props => props.theme.palette.primary};
     text-decoration: none;
     transition: all 0.15s;
-    font-size: 12px;
+    font-size: 0.7rem;
   }
 
   @media print {

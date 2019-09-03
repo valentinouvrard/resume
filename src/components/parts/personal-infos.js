@@ -26,7 +26,7 @@ const InfoText = styled.p`
 
 const InfoLink = styled.a`
   margin-left: 2mm;
-  font-size: 40;
+  font-size: 0.7rem;
 `
 
 const NewTabLink = (props) => <InfoLink target="_blank" rel="noopener noreferrer" href={props.href}> {props.children} </InfoLink>
