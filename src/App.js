@@ -10,7 +10,6 @@ import Skills from './components/parts/skills';
 import BottomNote from './components/parts/bottom-note';
 
 const MainContainer = styled.div`
-  font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 1cm 1cm 0cm 1cm;
   * {
     -webkit-print-color-adjust: exact;

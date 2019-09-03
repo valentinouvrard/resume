@@ -2,12 +2,12 @@ import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
   body {
-    background: white;
     display: block;
     margin: 0.5cm auto;
     box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
     width: 210mm;
     height: 296mm;
+    font-family: 'Open Sans', sans-serif;
   };
 
   h1, h2, h3, h4, h5, h6, p {
