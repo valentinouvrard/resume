@@ -11,6 +11,7 @@ const Comment = styled.h6`
   font-weight: 150;
   font-size: 0.6rem;
   text-align: center;
+  margin-top: 2rem;
   color: ${props => props.theme.palette.greys.normal};
 `
 

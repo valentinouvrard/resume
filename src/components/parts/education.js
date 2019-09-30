@@ -28,7 +28,7 @@ const EducationLogo = styled.img`
 `
 
 const SubContainer = styled.div`
-  margin-bottom: 6mm;
+  margin-bottom: 4mm;
 `
 
 const Light = styled.span`

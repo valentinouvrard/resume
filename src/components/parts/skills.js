@@ -5,30 +5,22 @@ const Container = styled.div`
 `
 
 const SubContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-items: center;
-`
-
-const Column = styled.div`
-    width: 33.333%;
-    word-wrap: break-word;
-    box-sizing: border-box;
 `
 
 const InfoText = styled.p`
   font-weight: 150;
   display: inline-block;
   color: ${props => props.theme.palette.primary};
+  margin-right: 1rem;
+`
+
+const SkillSection = styled.div`
+  margin-bottom: 0.7rem;
 `
 
 const ColumnTitle = styled.h5`
-
 `
 
-const InfoContainer = styled.div`
-  padding: 0.2mm 0mm;
-`
 const Title = styled.h2`
   font-weight: 400;
   margin-bottom: 3mm;
@@ -39,57 +31,29 @@ function Skills() {
     <Container>
       <Title>Skills</Title>
       <SubContainer>
-        <Column>
+        <SkillSection>
           <ColumnTitle>Languages</ColumnTitle>
-          <InfoContainer>
-            <InfoText>Javascript</InfoText>
-          </InfoContainer>
-          <InfoContainer>
-            <InfoText>C++</InfoText>
-          </InfoContainer>
-          <InfoContainer>
-            <InfoText>Java</InfoText>
-          </InfoContainer>
-          <InfoContainer>
-            <InfoText>Python</InfoText>
-          </InfoContainer>
-          <InfoContainer>
-            <InfoText>C#</InfoText>
-          </InfoContainer>
-          <InfoContainer>
-            <InfoText>C</InfoText>
-          </InfoContainer>
-        </Column>
-        <Column>
+          <InfoText>Javascript</InfoText>
+          <InfoText>C++</InfoText>
+          <InfoText>Java</InfoText>
+          <InfoText>Python</InfoText>
+          <InfoText>C#</InfoText>
+          <InfoText>C</InfoText>
+        </SkillSection>
+        <SkillSection>
           <ColumnTitle>Frameworks</ColumnTitle>
-          <InfoContainer>
-            <InfoText>React</InfoText>
-          </InfoContainer>
-          <InfoContainer>
-            <InfoText>React Native</InfoText>
-          </InfoContainer>
-          <InfoContainer>
-            <InfoText>J2EE</InfoText>
-          </InfoContainer>
-          <InfoContainer>
-            <InfoText>Django</InfoText>
-          </InfoContainer>
-          <InfoContainer>
-            <InfoText>.NET</InfoText>
-          </InfoContainer>
-        </Column>
-        <Column>
+          <InfoText>React</InfoText>
+          <InfoText>React Native</InfoText>
+          <InfoText>J2EE</InfoText>
+          <InfoText>Django</InfoText>
+          <InfoText>.NET</InfoText>
+        </SkillSection>
+        <SkillSection>
           <ColumnTitle>Softwares</ColumnTitle>
-          <InfoContainer>
-            <InfoText>Adobe Photoshop</InfoText>
-          </InfoContainer>
-          <InfoContainer>
-            <InfoText>Adobe Premiere Pro</InfoText>
-          </InfoContainer>
-          <InfoContainer>
-            <InfoText>Unity3d</InfoText>
-          </InfoContainer>
-        </Column>
+          <InfoText>Adobe Photoshop</InfoText>
+          <InfoText>Adobe Premiere Pro</InfoText>
+          <InfoText>Unity3d</InfoText>
+        </SkillSection>
       </SubContainer>
     </Container>
   )

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { faPhone, faAt, faGlobe } from '@fortawesome/free-solid-svg-icons'
-import { faGitlab, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import CustomFaIcon from '../decoration/custom-fa-icon';
 const Container = styled.div`
   border-bottom: 1px solid ${props => props.theme.palette.greys.ultraLight};
@@ -32,7 +32,7 @@ const InfoLink = styled.a`
 const NewTabLink = (props) => <InfoLink target="_blank" rel="noopener noreferrer" href={props.href}> {props.children} </InfoLink>
 
 const InfoContainer = styled.div`
-  padding: 1mm 0mm;
+  padding: 0.5mm 0mm;
 `
 
 function PersonalInfos() {
@@ -50,8 +50,8 @@ function PersonalInfos() {
       </Column>
       <Column>
         <InfoContainer>
-          <CustomFaIcon icon={faGitlab}/>
-          <NewTabLink href="https://gitlab.com/Valentin.ouvrard">valentin.ouvrard</NewTabLink>
+          <CustomFaIcon icon={faGithub}/>
+          <NewTabLink href="https://github.com/valentinouvrard">valentinouvrard</NewTabLink>
         </InfoContainer>
         <InfoContainer>
           <CustomFaIcon icon={faTwitter}/>

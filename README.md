@@ -18,4 +18,4 @@ This repository contains my resume made with ReactJs.
 
 ## Authors
 
-* **Valentin Ouvrard** - *Initial work* - [Valentin Ouvrard](gitlab.com/users/Valentin.ouvrard)
+* **Valentin Ouvrard** - *Initial work* - [Valentin Ouvrard](github.com/users/valentinouvrard)
