@@ -15,7 +15,7 @@ const InfoText = styled.p`
 `
 
 const SkillSection = styled.div`
-  margin-bottom: 1rem;
+  margin-bottom: 0.7rem;
 `
 
 const ColumnTitle = styled.h5`
