@@ -28,7 +28,7 @@ const ExperienceLogo = styled.img`
 `
 
 const SubContainer = styled.div`
-  margin-bottom: 6mm;
+  margin-bottom: 4mm;
   display: flex;
   flex-wrap: wrap;
   justify-items: center;
@@ -39,6 +39,11 @@ const ExperienceTitle = styled.h5`
   color: ${props => props.theme.palette.greys.dark};
 `
 const SubInfos = styled.p`
+  font-weight: 200;
+  color: ${props => props.theme.palette.greys.normal};
+`
+
+const ExpSubInfos = styled.p`
   font-weight: 400;
   color: ${props => props.theme.palette.greys.normal};
 `
@@ -58,10 +63,10 @@ function Experience() {
         <div>
           <ExperienceTitle>EPITA - École Pour l'Informatique et les Techniques Avancées</ExperienceTitle>
           <LocationDateInfo dates={"Jan 2019 - Now"} location={"France, Paris"}/>
-          <SubInfos>Teaching Assistant C / C++ / Java / SQL / Web (YAKA/ACU)</SubInfos>
+          <ExpSubInfos>Teaching Assistant C / C++ / Java / SQL / Web (YAKA/ACU)</ExpSubInfos>
           <Details>
             <SubInfos>- Work on subjects and exercises in different languages</SubInfos>
-            <SubInfos>- Explained to first year students programming concepts</SubInfos>
+            <SubInfos>- Explain programming concepts to first year students</SubInfos>
           </Details>
         </div>
       </SubContainer>
@@ -72,7 +77,7 @@ function Experience() {
         <div>
           <ExperienceTitle> My-Serious-Game </ExperienceTitle>
           <LocationDateInfo dates={"Sept 2018 - Jan 2019"} location={"France, Tours"}/>
-          <SubInfos> Internship in innovation department.</SubInfos>
+          <ExpSubInfos> Internship in innovation department.</ExpSubInfos>
           <Details>
             <SubInfos>- Made VR projects with several technologies (HTC Vive, LeapMotion, ...)</SubInfos>
             <SubInfos>- Create a Slack bot in order to explore the effects of micro-learning on a professional environment</SubInfos>
