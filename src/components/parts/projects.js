@@ -32,6 +32,7 @@ const ProjectTechs = styled(ProjectSubInfos)`
   color: ${props => props.theme.palette.primary};
   display: inline-block;
   font-weight: 150;
+  margin-right: 4mm;
 `
 
 const Details = styled.div`
@@ -61,17 +62,15 @@ function Projects() {
       <Title>Projects</Title>
       <SubContainer>
         <ProjectTitle>Bananup</ProjectTitle>
-        <ProjectTechs>Django, React</ProjectTechs>
-        <div>
-          <ProjectLink>
-            <CustomFaIcon icon={faLink} size="xs"/>
-            <NewTabLink href="https://bananup.co/">bananup.co</NewTabLink>
-          </ProjectLink>
-          <ProjectLink>
-            <CustomFaIcon icon={faGithub} size="xs"/>
-            <NewTabLink href="https://github.com/valentinouvrard/bananup-front">Bananup-front</NewTabLink>
-          </ProjectLink>
-        </div>
+        <ProjectTechs>Django, React, GraphQL</ProjectTechs>
+        <ProjectLink>
+          <CustomFaIcon icon={faLink} size="xs"/>
+          <NewTabLink href="https://bananup.co/">bananup.co</NewTabLink>
+        </ProjectLink>
+        <ProjectLink>
+          <CustomFaIcon icon={faGithub} size="xs"/>
+          <NewTabLink href="https://github.com/valentinouvrard/bananup-front">Bananup-front</NewTabLink>
+        </ProjectLink>
         <ProjectSubInfos>In the context of Epita's StartupLab, we created a website made for semi-competitive gamers that want to improve their gaming skills thanks to community-driven feedbacks.</ProjectSubInfos>
         <Details>
           <SubInfos>- Creating a startup project</SubInfos>
@@ -81,17 +80,15 @@ function Projects() {
       <SubContainer>
         <ProjectTitle> Sportizen </ProjectTitle>
         <ProjectTechs>NodeJs, React Native</ProjectTechs>
-        <div>
           <ProjectLink>
             <CustomFaIcon icon={faGithub} size="xs"/>
             <NewTabLink href="https://github.com/valentinouvrard/sportizen-app">Sportizen-app</NewTabLink>
           </ProjectLink>
-        </div>
         <ProjectSubInfos>An application that allows users to generate sport activities and keep track of their performances.</ProjectSubInfos>
         <Details>
           <SubInfos>- Learning cross-platform mobile development with React Native</SubInfos>
           <SubInfos>- Facing geolocation problematics on mobile devices</SubInfos>
-          <SubInfos>- Organizing a 1 year long project with a team of 4</SubInfos>
+          <SubInfos>- Organizing a 1 year long project with a team of 4 members</SubInfos>
         </Details>
       </SubContainer>
     </Container>
