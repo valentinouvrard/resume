@@ -74,9 +74,13 @@ function Experience() {
               - Integrated new design for a Google Sheet addon
             </SubInfos>
             <SubInfos>
-              - Designed and implemented a new feature from scratch, working
-              with a team of software <br /> engineers and a project manager to
-              deliver a successful solution.
+              - Designed and implemented a new automation feature from scratch,
+              working with a team of software <br /> engineers and a project
+              manager to deliver a successful solution
+            </SubInfos>
+            <SubInfos>
+              - Currently working on the formula engine, as well the computation
+              scheduler
             </SubInfos>
           </Details>
         </div>
@@ -96,7 +100,7 @@ function Experience() {
             <SubInfos>- Create a legal file management solution</SubInfos>
             <SubInfos>
               - Served as lead developer for a collaborative contract management
-              solution.
+              solution
             </SubInfos>
             <SubInfos>
               - Drove the technical direction of the product and collaborating
@@ -122,20 +126,20 @@ function Experience() {
             <SubInfos>
               - Worked with a team of ~40 teaching assistants and faculty to
               support instruction of introductory <br /> programming courses in
-              C, C++, Java, SQL, and web development.
+              C, C++, Java, SQL, and web development
             </SubInfos>
             <SubInfos>
               - Developed and delivered tutorials to enhance students'
-              understanding of programming concepts.
+              understanding of programming concepts
             </SubInfos>
             <SubInfos>
               - Provided personalized feedback to students on programming
               assignments and projects to promote <br />
-              comprehension and success.
+              comprehension and success
             </SubInfos>
             <SubInfos>
               - Mentored first-year students during weekly office hours to
-              address individual questions and concerns.
+              address individual questions and concerns
             </SubInfos>
           </Details>
         </div>
